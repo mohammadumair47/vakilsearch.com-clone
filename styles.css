@@ -63,7 +63,7 @@ body {
 
 .navbar-logo img {
   width: 180px;
-  height: 75px;
+  height: 65px;
   background: #fff;
   display: block; 
     width: 100%;  
@@ -240,18 +240,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(248, 222, 222);
-  position: sticky;
-  top: 9%;
-  padding: 10px;
-
   background-color: rgb(253 236 236);
-
+  padding: 10px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;  
 }
 
 .wrapper {
   font-size: 14px;
   font-weight: 700;
+  font-family: Roboto, sans-serif;
+}
+
+.alert-text{
+  font-size: 14px;
   font-family: Roboto, sans-serif;
 }
 
@@ -794,8 +797,6 @@ body {
 .col-4 {
   width: 455.99px;
   height: 62px;
-
-
 }
 
 .control-3 {
@@ -1012,8 +1013,6 @@ body {
   width: 1300px;
   height: 280px;
   flex-direction: row;
-
-
 }
 
 .slick-slider {
